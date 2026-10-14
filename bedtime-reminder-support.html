@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>就寝提醒支持 / Bedtime Reminder Support</title>
+  <meta name="description" content="就寝提醒常见问题与开发者联系邮箱。Bedtime Reminder help and contact.">
+  <style>
+    :root { color-scheme: light dark; --bg: #fff; --ink: #25212d; --muted: #625b6f; --accent: #62369a; --line: #ddd6e6; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #17131d; --ink: #f3edf9; --muted: #c2b6d0; --accent: #c6a2f4; --line: #51425f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; }
+    main { max-width: 780px; margin: auto; padding: 32px 20px 48px; }
+    h1 { margin: 0 0 8px; font-size: 1.65rem; line-height: 1.4; }
+    h2 { margin-top: 36px; font-size: 1.4rem; } h3 { margin-top: 24px; font-size: 1.08rem; }
+    p { margin: 12px 0; } a { color: var(--accent); overflow-wrap: anywhere; } a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 18px; padding: 12px 0; }
+    nav a { min-height: 44px; display: inline-flex; align-items: center; }
+    .meta { color: var(--muted); font-size: .92rem; } section + section { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 12px; }
+    footer { border-top: 1px solid var(--line); margin-top: 36px; padding-top: 20px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>就寝提醒支持 <span lang="en">/ Bedtime Reminder Support</span></h1>
+    <p>联系开发者 / Contact: <a href="mailto:levinghost@outlook.com">levinghost@outlook.com</a></p>
+    <p class="meta">App 1.0 · 更新日期 / Updated: 2026-10-14</p>
+    <nav aria-label="页面导航 / Page navigation"><a href="#zh">中文</a><a href="#en" lang="en">English</a><a href="bedtime-reminder-privacy.html">隐私 / Privacy</a></nav>
+  </header>
+  <section id="zh" lang="zh-Hans" aria-labelledby="zh-title">
+    <h2 id="zh-title">中文常见问题</h2>
+    <h3>如何开始？</h3>
+    <p>首页右上角齿轮进入设置，开始免费试用或恢复已有有效订阅，完成屏幕使用时间和通知授权。返回首页设置每日提醒时间，再开启提醒。提醒先保持关闭，直到你准备好使用。</p>
+    <h3>为什么需要屏幕使用时间授权？会读取应用内容吗？</h3>
+    <p>系统授权用于在支持的应用或网站显示提醒遮罩。你可使用推荐的应用范围，或改为自选；Apple 的系统选择器由你操作，App 不代替你全选。App 仅使用必要的系统标识，不读取应用内容或全手机最后操作时间。可在 App 关闭提醒、解除遮罩，或在系统设置撤销授权。</p>
+    <h3>锁屏时会自动弹出 App 页面吗？</h3>
+    <p>不会。允许通知后，锁屏、顶部横幅和通知中心可显示本地通知；点击通知并解锁后进入提醒页面。主页或锁屏本身不会显示应用内遮罩。若没有看到通知，请检查该 App 的通知权限、锁屏与横幅选项、专注模式和通知摘要，并确认试用或订阅有效且提醒已开启。</p>
+    <h3>如何延后或解除本次提醒？</h3>
+    <p>在提醒页面选择“10分钟后再提醒”会设置延后排程。“我准备睡觉了”记录你确认的准备就寝时间并解除本次提醒。主页出现延后状态时，可选择取消延后并解除本次提醒；关闭提醒也可停止后续排程。未回应保持未记录。</p>
+    <h3>就寝日历如何记录？</h3>
+    <p>记录由你确认或手动补记，不是睡眠检测。点击今天或过去的日期可录入、编辑或删除；未知的历史目标需要你确认。记录时间不晚于目标为达标，之后为晚睡。凌晨00:00至05:59的目标归前一晚，例如14日00:30属于13日晚。未来日期只读。修改提醒时间会清除受影响的当前晚记录，已结束的历史夜晚保留。</p>
+    <h3>15天免费试用会自动扣费吗？重装能重新试用吗？</h3>
+    <p>不会自动扣费。新用户点击开始后才开始15天试用，不需确认 Apple 订阅。试用按设备保存于系统钥匙串，卸载重装不会重新开始；已经开始的试用保留原截止时间。到期后可自行选择月订阅继续开启提醒，已有日历记录仍可查看和管理。</p>
+    <h3>月订阅价格、恢复与取消在哪里？</h3>
+    <p>设置中查看月订阅。中国大陆当前5元/月，其他地区以 Apple 显示的当地价格为准。确认订阅后由 Apple 账户付款并按月自动续费，除非取消。换设备或重装后使用购买时的 Apple 账户，点击“恢复购买”；可通过“管理或取消订阅”进入 Apple 系统页面。取消后，已付费权益按 Apple 提供的有效期保留。续费核验延迟时，打开 App 刷新权益。</p>
+    <h3>如何切换语言与添加小组件？</h3>
+    <p>设置中的语言支持中文、英文和跟随系统；系统首选语言不是中文或英文时默认英文，提醒说明和小组件也随之调整。在设置查看小组件，再从系统主屏幕编辑界面添加。小组件只展示已有记录；刷新由系统安排，不能保证实时更新。</p>
+    <h3>如何反馈问题？</h3>
+    <p>在 App 设置中联系开发者，或发送邮件到 <a href="mailto:levinghost@outlook.com">levinghost@outlook.com</a>。可附上问题步骤、设备型号、系统版本和 App 版本；邮件由你确认发送。详情见<a href="bedtime-reminder-privacy.html#zh">隐私说明</a>，使用条款见<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple 标准 EULA</a>。</p>
+  </section>
+  <section id="en" lang="en" aria-labelledby="en-title">
+    <h2 id="en-title">English FAQ</h2>
+    <h3>How do I start?</h3>
+    <p>Open the gear icon at the top right. Start your available trial or restore an active subscription, then authorize Screen Time and notifications. Return home, set a daily time and enable reminders when you are ready.</p>
+    <h3>Why is Screen Time authorization needed? Does it read app content?</h3>
+    <p>System authorization enables reminder shields in supported apps or websites. Use the recommended scope or choose your own. You operate Apple's selection interface; the app does not preselect every item for you. Only necessary system identifiers are used, not app content or a phone-wide last-use time. Turn reminders off, dismiss the shield or revoke authorization in system settings.</p>
+    <h3>Will the app open automatically while the device is locked?</h3>
+    <p>No. Allowed local notifications can appear on the Lock Screen, in banners and in Notification Center. Tap a notification and unlock to enter the reminder page. App shields do not cover the Home Screen or Lock Screen. If a notification is missing, check this app's notification permission, Lock Screen and banner options, Focus and Scheduled Summary; also confirm that access is valid and reminders are enabled.</p>
+    <h3>How do I snooze or dismiss a reminder?</h3>
+    <p>Remind me in 10 minutes schedules a snooze. I'm ready for bed records your confirmed preparation-for-bed time and dismisses the current reminder. When home shows a snooze, you can cancel it and dismiss the current reminder. Turning reminders off stops later schedules. No response leaves the night unrecorded.</p>
+    <h3>How does the calendar record a night?</h3>
+    <p>You confirm or enter a bedtime; the app does not detect sleep. Tap today or a past date to add, edit or delete an entry. Confirm an unknown historical goal yourself. A bedtime at or before its goal is on time; a later bedtime is late. Goals from 00:00 through 05:59 belong to the previous night: 00:30 on the 14th belongs to the night of the 13th. Future dates are view-only. Changing the reminder time clears affected current-night entries; completed past nights are kept.</p>
+    <h3>Will the 15-day trial bill me? Can reinstalling restart it?</h3>
+    <p>The trial never bills automatically. New users choose to start it, without confirming an Apple subscription. Eligibility is stored per device in the system Keychain; reinstalling does not restart it. An existing trial keeps its original deadline. After expiration, you can choose a monthly subscription to continue enabling reminders. Existing calendar entries remain available to view and manage.</p>
+    <h3>Where are pricing, restore and cancellation?</h3>
+    <p>Open the monthly subscription page in Settings. The current mainland China price is CNY 5 per month; other regions use Apple's displayed local price. After your separate confirmation, Apple bills your Apple Account and renews monthly unless cancelled. On a new device or after reinstalling, use the purchasing Apple Account and choose Restore purchases. Manage or cancel subscription opens Apple's system flow. After cancellation, paid access remains for the valid period reported by Apple. Open the app to refresh access if renewal verification is delayed.</p>
+    <h3>How do I choose a language or add widgets?</h3>
+    <p>Settings offers Chinese, English and following your system. If the first system language is neither Chinese nor English, English is used. Reminder explanations and widgets follow the preference. Browse Widgets in Settings and add them from the system Home Screen editing interface. Widgets use existing records, and the system controls refresh timing.</p>
+    <h3>How do I report a problem?</h3>
+    <p>Use Contact developer in Settings, or email <a href="mailto:levinghost@outlook.com">levinghost@outlook.com</a>. You can include the steps, device model, system version and app version; you review and send the email yourself. See <a href="bedtime-reminder-privacy.html#en">Privacy details</a> and the <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a>.</p>
+  </section>
+  <footer><a href="bedtime-reminder-privacy.html">隐私 / Privacy</a> · <a href="mailto:levinghost@outlook.com">levinghost@outlook.com</a></footer>
+</main>
+</body>
+</html>
